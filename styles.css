@@ -4,6 +4,7 @@
   color: greenyellow;
 }
 .nav-container {
+  z-index: 5;
   position: fixed;
   display: flex;
   top: 70px;
@@ -35,6 +36,7 @@
   word-wrap: break-word;
 }
 #header-title-container {
+  z-index: 5;
   position: fixed;
   height: 70px;
   width: 100vw;
@@ -124,4 +126,17 @@ h1 {
 }
 p {
   background-color: inherit;
+}
+.main-pet-image-text {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.main-pet-image-container {
+  position: relative;
+  z-index: 0;
+}
+.main-pet-image {
+  width: 80%;
+  height: 80%;
 }
