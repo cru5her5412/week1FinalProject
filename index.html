@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--As a user, I want the web page to have a clear structure with a recognisable header, footer, and navigation sections, so that I can easily navigate and understand the content.
+As a user, I want the layout and navigation links to be responsive and well-organised, so that I can easily access and interact with the website.
+As a user, I want to see text overlaid on images or other elements in a visually appealing way, so that the content is engaging and enhances my browsing experience.
+As a user, I want images to load correctly and be displayed properly on the web page, so that my viewing experience is seamless and visually pleasing.
+Ensure each section of the webpage is wrapped in the correct semantic tags, ensuring that includes a <header>, <nav>, and <footer>.
+Implement CSS absolute positioning to overlay text on an image or another element.
+Utilise CSS Flexbox to create a flexible and responsive layout, particularly in the <nav> element.
+Ensure all image elements (<img>) are correctly implemented with accurate src file paths.
+As a user, I want to have a “back to top” button so that I can easily return to the top without manually scrolling.
+As a user, I want smooth scrolling for internal links so that I can have a seamless and enjoyable navigation experience within the website.
+As a user, I want buttons to have a hover effect so that they appear more interactive and I can easily identify clickable elements.
+As a user, I want a basic footer with social media icons that link to social media pages so that I can easily connect with the website on social platforms.
+As a user, I want a background music track that plays automatically blu-and-rocky the website loads so that I can have an enhanced and enjoyable browsing experience.
+Create a “back to top” button.
+Implement smooth scrolling for internal links to improve user experience.
+Implement a hover effect on buttons to make them more interactive.
+Create a basic footer with social media icons that link to social media pages.
+Add a background music track that plays automatically blu-and-rocky the website loads.-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Pets</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <section id="top">
+        <div id="header-title-container">
+          <h1 id="header-title">My Pets</h1>
+        </div>
+      </section>
+      <section>
+        <nav class="nav-container">
+          <button
+            onclick="location.href='/index.html#home';"
+            class="nav-button"
+          >
+            Home
+          </button>
+          <button
+            onclick="location.href='/index.html#mobie';"
+            class="nav-button"
+          >
+            Mobie
+          </button>
+          <button
+            onclick="location.href='/index.html#smutt';"
+            class="nav-button"
+          >
+            Smutt
+          </button>
+          <button
+            onclick="location.href='/index.html#blu-and-rocky';"
+            class="nav-button"
+          >
+            Blu and Rocky
+          </button>
+          <button onclick="location.href='/index.html#blu';" class="nav-button">
+            Blu
+          </button>
+          <button
+            onclick="location.href='/index.html#rocky';"
+            class="nav-button"
+          >
+            Rocky
+          </button>
+        </nav>
+      </section>
+      <section id="top-spacer">
+        <div>nothing here</div>
+      </section>
+    </header>
+    <main>
+      <section>
+        <div id="home">
+          <h1>Home</h1>
+        </div>
+      </section>
+      <section>
+        <div id="mobie">
+          <h1>mobie</h1>
+          <div class="image-and-description">
+            <h2>Mobie is a beautiful yellow labrador</h2>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div id="smutt">
+          <h1>smutt</h1>
+          <div class="image-and-description">
+            <h2>Smutt is a cute old black cat we adopted</h2>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div id="blu-and-rocky">
+          <h1>blu-and-rocky</h1>
+          <div class="image-and-description">
+            <h2>Blu and Rocky are two stray kittens we adopted</h2>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div id="blu">
+          <h1>blu</h1>
+          <div class="image-and-description">
+            <h2>Blu is the grey of the two kittens</h2>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div id="rocky">
+          <h1>Rocky</h1>
+          <div class="image-and-description">
+            <h2>Rocky is the black of the two kittens</h2>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div id="return-to-top">
+          <button
+            class="return-to-top-button"
+            onclick="location.href='/index.html#top';"
+          >
+            Return to Top
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
