@@ -59,7 +59,7 @@
   height: 60vw;
   border-color: rgb(0, 120, 0);
   border-style: solid none solid none;
-  background-image: url("/images/Mobie.jpeg");
+  background-image: url(/images/Mobie.jpeg);
   background-size: 80%;
   background-repeat: no-repeat;
 }
@@ -68,7 +68,7 @@
   height: 60vw;
   border-color: rgb(0, 120, 0);
   border-style: solid none solid none;
-  background-image: url("/images/Smutt.jpeg");
+  background-image: url(/images/Smutt.jpeg);
   background-size: 80%;
   background-repeat: no-repeat;
   color: black;
@@ -79,7 +79,7 @@
   padding: 10px;
   border-color: rgb(0, 120, 0);
   border-style: solid none solid none;
-  background-image: url("/images/Blu\ and\ Rocky.jpeg");
+  background-image: url(/images/Blu\ and\ Rocky.jpeg);
   background-size: 80%;
   background-repeat: no-repeat;
 }
@@ -88,7 +88,7 @@
   height: 50vw;
   border-color: rgb(0, 120, 0);
   border-style: solid none solid none;
-  background-image: url("/images/Blu.jpeg");
+  background-image: url(/images/Blu.jpeg);
   background-size: 80%;
   background-repeat: no-repeat;
 }
@@ -97,7 +97,7 @@
   height: 50vw;
   border-color: rgb(0, 81, 0);
   border-style: solid none solid none;
-  background-image: url("/images/Rocky.jpg");
+  background-image: url(/images/Rocky.jpg);
   background-size: 80%;
   background-repeat: no-repeat;
   padding-bottom: 300px;
@@ -149,7 +149,7 @@ footer {
 #footer-nav-X {
   height: 5vw;
   width: 5vw;
-  background-image: url("/images/XLogo.png");
+  background-image: url(/images/XLogo.png);
   background-size: 3vw;
   background-position: center;
   background-color: white;
@@ -157,7 +157,7 @@ footer {
 #footer-nav-facebook {
   height: 5vw;
   width: 5vw;
-  background-image: url("/images/facebookLogo.png");
+  background-image: url(/images/facebookLogo.png);
   background-size: 3vw;
   background-position: center;
   background-color: white;
@@ -165,7 +165,7 @@ footer {
 #footer-nav-instagram {
   height: 5vw;
   width: 5vw;
-  background-image: url("/images/InstagramLogo.jpg");
+  background-image: url(/images/InstagramLogo.jpg);
   background-size: 3vw;
   background-position: center;
   background-color: white;
