@@ -146,34 +146,34 @@ footer {
   display: flex;
 }
 #footer-nav-X {
-  width: 5%;
-  height: 5%;
+  height: 5vw;
+  width: 5vw;
   background-image: url(images/XLogo.png);
-  background-size: 30px;
+  background-size: 3vw;
   background-position: center;
   background-color: white;
 }
 #footer-nav-facebook {
-  width: 5%;
-  height: 5%;
+  height: 5vw;
+  width: 5vw;
   background-image: url(images/facebookLogo.png);
-  background-size: 30px;
+  background-size: 3vw;
   background-position: center;
   background-color: white;
 }
 #footer-nav-instagram {
-  width: 5%;
-  height: 5%;
+  height: 5vw;
+  width: 5vw;
   background-image: url(images/InstagramLogo.jpg);
-  background-size: 30px;
+  background-size: 3vw;
   background-position: center;
   background-color: white;
 }
 .footer-nav-button {
   background-repeat: no-repeat;
   border-radius: 50%;
-  height: 5%;
-  width: 5%;
+  height: 5vw;
+  width: 5vw;
 }
 #hard-to-read {
   color: rgb(0, 59, 0);
