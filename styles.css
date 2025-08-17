@@ -148,7 +148,7 @@ footer {
 #footer-nav-X {
   height: 5vw;
   width: 5vw;
-  background-image: url(images/XLogo.png);
+  background-image: url(/images/XLogo.png);
   background-size: 3vw;
   background-position: center;
   background-color: white;
@@ -156,7 +156,7 @@ footer {
 #footer-nav-facebook {
   height: 5vw;
   width: 5vw;
-  background-image: url(images/facebookLogo.png);
+  background-image: url(/images/facebookLogo.png);
   background-size: 3vw;
   background-position: center;
   background-color: white;
@@ -164,7 +164,7 @@ footer {
 #footer-nav-instagram {
   height: 5vw;
   width: 5vw;
-  background-image: url(images/InstagramLogo.jpg);
+  background-image: url(/images/InstagramLogo.jpg);
   background-size: 3vw;
   background-position: center;
   background-color: white;
