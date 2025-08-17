@@ -76,6 +76,7 @@
 #blu-and-rocky {
   background-color: rgb(0, 174, 0);
   height: 60vw;
+  padding: 10px;
   border-color: rgb(0, 120, 0);
   border-style: solid none solid none;
   background-image: url("/images/Blu\ and\ Rocky.jpeg");
